@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #f6f9ff, #e9efff);
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.subtitle {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.sem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background: linear-gradient(45deg, #0d6efd, #6610f2);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #6610f2, #0d6efd);
+    transform: scale(1.05);
+}
+
+.btn.small {
+    padding: 6px 14px;
+    font-size: 14px;
+}
+
+/* Card Colors */
+.blue { border-left: 6px solid #0d6efd; }
+.green { border-left: 6px solid #198754; }
+.purple { border-left: 6px solid #6f42c1; }
+.orange { border-left: 6px solid #fd7e14; }
+.teal { border-left: 6px solid #20c997; }
+.pink { border-left: 6px solid #d63384; }
